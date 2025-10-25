@@ -111,7 +111,7 @@ function Carousel({ images }: CarouselProps) {
           key={idx}
           width={800}
           height={400}
-          className="absolute top-0 left-0 carousel-image rounded-2xl object-cover w-[30vw] min-w-[600px] h-[400px] transform-style-preserve-3d"
+          className="absolute top-0 left-0 carousel-image rounded-2xl object-cover w-[80vw] min-w-[300px] max-w-[600px] md:min-w-[500px] h-[400px] transform-style-preserve-3d"
           draggable={false}
           alt={`carousel image ${idx}`}
           src={img}

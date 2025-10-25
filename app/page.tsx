@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="w-full h-full flex flex-col items-center bg-background overflow-x-hidden">
       <p className="text-foreground font-medium mt-2">Experience <span className={" text-black font-semibold " + grotesk.className}>Makeover</span></p>
-      <h1 className={grotesk.className + " font-semibold text-6xl text-center tracking-tight max-w-3xl mt-4"} style={{ wordSpacing: .5 }}>Design as rare as <br /> catching butterflies or finding a four-leaf clover.</h1>
+      <h1 className={grotesk.className + " font-semibold text-3xl md:text-6xl text-center tracking-tight max-w-3xl mt-4"} style={{ wordSpacing: .5 }}>Design as rare as <br /> catching butterflies or finding a four-leaf clover.</h1>
       <div className="bg-secondary w-8/10 max-w-[700px] rounded-4xl p-8 mt-12">
         <h2 className="text-3xl text-center font-bold">
           Apps. Websites. Brand. Products.
